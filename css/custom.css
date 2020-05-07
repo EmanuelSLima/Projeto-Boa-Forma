@@ -1,0 +1,351 @@
+html, body{
+    height: 100%;
+}
+.row{
+    margin-bottom: 0;
+}
+.container{
+    width: 90%;
+}
+/*Cores*/
+.blue-logo{
+    color: #2dc7d0;
+}
+.fundo-azul{
+    background-color: #2dc7d0;
+}
+/*Bloco*/
+.bloco{
+    min-height: 100%;
+}
+/*Home*/
+.home{
+    animation: mudarfundo 20s infinite;
+    background-image: url('../img/bg.jpg ');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*Logo*/
+.logo-text{
+    font-size: 0;
+    margin: 0;
+}
+.logo-img{
+    width: 100px;
+    margin-top: 15px;
+}
+/*Nav*/
+nav{
+    height: 94px;
+}
+nav.nav-extended .nav-wrapper{
+    min-height: 94px;
+    height: auto;
+}
+/*Menu desktop*/
+.navbar{
+    background-color: transparent;
+}
+.menu-desktop{
+    line-height: 94px;
+}
+.menu-desktop li >a:hover{
+    background-color: transparent;
+    color: #2dc7d0;
+}
+.navbar-fixed{
+    height: 94px;
+    position: absolute;
+}
+.nav-color{
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: background 0.5 linear;
+}
+/*Menu mobile*/
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    color: white;
+    font-size: 35px;
+    margin-top: 10px;
+}
+.side-nav{
+    background: url('../img/textura2.png');
+}
+.side-nav li > a{
+    color: white;
+    font-weight: 100;
+}
+
+/*Animação*/
+@keyframes mudarfundo{
+    40%{
+        background-image: url('../img/bg2.jpg ');
+    }
+    80%{
+        background-image: url('../img/bg3.jpg ');
+    }
+    100%{
+        background-image: url('../img/bg.jpg ');
+    }
+}
+.banner{
+    padding: 130px 0;
+}
+.banner h2{
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.banner p{
+    font-size: 17px;
+}
+/*Sobre*/
+.sobre{
+    background: url('../img/textura1.png');
+    padding-top: 80px;
+}
+.sobre h2{
+    font-size: 35px;
+    color: #212121;
+    text-transform: uppercase;
+}
+.sobre h2::after{
+    border: 1px solid #2dc7d0;;
+    display: block;
+    content: '';
+    width: 180px;
+    margin: 10px auto;
+}
+.sobre p{
+    line-height: 25px;
+    text-align: justify;
+}
+/*Missão-visao-valores*/
+.missao-visao-valores{
+    padding: 30px 0;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+.missao-visao-valores .icon{
+    color: white;
+}
+.missao-visao-valores h3{
+    font-size: 22px;
+    color: white;
+    text-transform: uppercase;
+}
+.missao-visao-valores p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+/*servicos*/
+.servicos{
+    padding-top: 70px;
+    background: url('../img/textura2.png');
+}
+.servicos h2{
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+}
+.servicos h2::after{
+    border: 1px solid #2dc7d0;;
+    display: block;
+    content: '';
+    width: 155px;
+    margin: 10px auto;
+}
+.p-servicos{
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+.btn-horarios{
+    margin: 30px 0;
+}
+/*Custom tabela horarios*/
+.tabs .tab a:hover, .tabs .tab a.active{
+    color: #2dc7d0;
+}
+.tabs .tab{
+    background-color: black;
+}
+.tabs .tab a{
+    color: white;
+}
+.tabs .indicator{
+    background-color: #2dc7d0;
+}
+.row .col.s3{
+    border: 1px solid white;
+}
+/*Unidades*/
+.unidades{
+    background-image: url('../img/bg-unidades.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 70px;
+}
+.unidades h2{
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+}
+.unidades h2::after{
+    border: 1px solid #2dc7d0;;
+    display: block;
+    content: '';
+    width: 155px;
+    margin: 10px auto;
+}
+.unidades p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+/*Contato*/
+.contato{
+    background-image: url('../img/textura1.png');
+    padding: 70px 0 20px 0;   
+}
+.contato h2{
+    font-size: 35px;
+    color: black;
+    text-transform: uppercase;
+}
+.contato h2::after{
+    border: 1px solid #2dc7d0;;
+    display: block;
+    content: '';
+    width: 150px;
+    margin: 10px auto;
+}
+/*Mapa*/
+.mapa{
+    min-height: 550px;
+    border: 1px solid rgb(228, 227, 227);
+}
+.mapa iframe{
+    min-height: 550px;
+    width: 100%;
+}
+/*Informaçoes*/
+.informacoes{
+    min-height: 550px;
+    background: url('../img/textura2.png');
+    padding: 10px 20px;
+}
+.informacoes h4{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 28px;
+}
+.informacoes h4::after{
+    border: 1px solid #2dc7d0;;
+    display: block;
+    content: '';
+    width: 190px;
+    margin: 6px auto;
+}
+.informacoes p{
+    text-align: left;
+    font-size: 15px;
+}
+.icons-sociais{
+    text-align: center;
+}
+.informacoes a{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin: 10px 8px;
+}
+.informacoes a:hover:nth-of-type(1){
+    color: rgb(85, 85, 231);
+}
+.informacoes a:hover:nth-of-type(2){
+    color: rgb(218, 32, 32);
+}
+.informacoes a:hover:nth-of-type(3){
+    color: rgb(80, 170, 230);
+}
+.informacoes h5{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.box-contatos > p{
+    font-size: 13px;
+    font-weight: bolder;
+}
+/*Formulario*/
+.formulario{
+    min-height: 550px;
+    padding: 10px 20px;
+    border: 1px solid rgb(228, 227, 227);
+}
+.formulario h4{
+    font-size: 28px;
+    text-transform: uppercase;
+}
+.formulario .btn-enviar{
+    text-align: center;
+}
+.formulario h4::after{
+    border: 1px solid #2dc7d0;;
+    display: block;
+    content: '';
+    width: 190px;
+    margin: 6px auto;
+}
+/*Depoimentos*/
+.depoimentos{
+    padding: 5px 0;
+}
+.depoimentos h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+}
+.depoimentos h2::after{
+    border: 1px solid #fff;
+    display: block;
+    content: '';
+    width: 190px;
+    margin: 6px auto;
+}
+.depoimentos img{
+    width: 100px;
+}
+.depoimentos p{
+    font-size: 15px;
+}
+.depoimentos h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.depoimentos i{
+    color: white;
+    font-size: 20px;
+}
+/*Footer*/
+.footer{
+    background-image: url('../img/bg-rodape.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 0;
+    text-align: center;
+    color: white;
+}
+.footer img{
+    width: 100px;
+}
+.footer p{
+    font-size: 17px;
+    margin-top: 15px;
+}
